@@ -1,5 +1,8 @@
 # CardLux - Premium Digital Business Card Platform
 
+> **GitHub Pages:** Live card → [`index.html`](./index.html)  
+> `https://YOUR_USERNAME.github.io/digital-business-card/`
+
 منصة بطاقات أعمال رقمية فاخرة للمحترفين وشركات العقارات في الإمارات.
 
 A world-class digital business card platform built for luxury professionals, executives, and premium real estate companies in the UAE.
