@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
@@ -51,31 +51,18 @@
     .logo {
       display: block;
       width: 100%;
-      max-width: 240px;
+      max-width: 320px;
       height: auto;
-      max-height: 88px;
+      max-height: 120px;
       object-fit: contain;
       margin: 0 auto 20px;
     }
 
     .divider {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin: 20px 0;
-    }
-
-    .divider::before,
-    .divider::after {
-      content: "";
-      flex: 1;
       height: 1px;
+      margin: 20px 0;
       background: rgba(200, 161, 74, 0.35);
-    }
-
-    .divider span {
-      color: #C8A14A;
-      font-size: 8px;
+      border: none;
     }
 
     /* Photo frame */
@@ -119,15 +106,6 @@
       aspect-ratio: 4 / 4.5;
       object-fit: cover;
       object-position: top center;
-    }
-
-    .photo-curve {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 38%;
-      height: 14%;
-      pointer-events: none;
     }
 
     /* Identity */
@@ -297,7 +275,7 @@
         alt="Golden Palm Real Estate"
       />
 
-      <div class="divider"><span>â—†</span></div>
+      <div class="divider"></div>
 
       <div class="photo-wrap">
         <div class="photo-frame">
@@ -307,9 +285,6 @@
             alt="Nofal Mohammed"
           />
         </div>
-        <svg class="photo-curve" viewBox="0 0 120 40" preserveAspectRatio="none" aria-hidden="true">
-          <path d="M 0 40 Q 38 8 120 0" fill="none" stroke="#C8A14A" stroke-width="1.2" opacity="0.75"/>
-        </svg>
       </div>
 
       <div class="identity">
@@ -321,7 +296,7 @@
         <p class="company">Golden Palm Real Estate</p>
       </div>
 
-      <div class="divider"><span>â—†</span></div>
+      <div class="divider"></div>
 
       <div class="contacts">
         <a class="contact-row" href="https://wa.me/971525218166">
