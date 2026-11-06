@@ -208,7 +208,7 @@
       stroke-width: 1.5;
     }
 
-    .contact-text { flex: 1; min-width: 0; padding-top: 2px; }
+    .contact-text { flex: 1; min-width: 0; padding-top: 2px; container-type: inline-size; }
 
     .contact-label {
       font-size: 9px;
@@ -224,6 +224,13 @@
       font-weight: 300;
       color: rgba(255,255,255,0.9);
       word-break: break-all;
+    }
+
+    .contact-value.email {
+      white-space: nowrap;
+      word-break: normal;
+      font-size: 12px;
+      font-size: min(14px, 5.5cqi);
     }
 
     .timeline-dot {
@@ -334,7 +341,7 @@
           </div>
           <div class="contact-text">
             <div class="contact-label">Email</div>
-            <div class="contact-value" dir="ltr">nofal.mohamed@gpalmrealty.com</div>
+            <div class="contact-value email" dir="ltr">nofal.mohamed@gpalmrealty.com</div>
           </div>
           <div class="timeline-dot"></div>
         </a>
